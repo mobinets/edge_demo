@@ -1,0 +1,14 @@
+FROM python:3.7-slim-buster
+COPY sources.list /etc/apt/
+COPY code /root/
+RUN apt-get update \
+    && apt-get install -y build-essential \
+    libopenjp2-7 \
+    libtiff5 \
+    libatlas-base-dev \
+    zlib1g-dev \
+    libjpeg-dev \
+    && pip install Numpy \
+    Flask \
+    Pillow \
+    https://dl.google.com/coral/python/tflite_runtime-2.1.0.post1-cp37-cp37m-linux_armv7l.whl
