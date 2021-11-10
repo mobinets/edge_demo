@@ -2,12 +2,10 @@
 ## 系统目标
 从0开始实现边缘计算系统，特别面向物联网场景的计算卸载过程。
 ### 自主实现定制化边缘服务器
-<div width=400>
-<img width=100% src="https://mobinets.cn/edgebook/resources/luojijiagou.png">逻辑架构图</img>
-<img width=100% src="https://mobinets.cn/edgebook/resources/esp32-cam.png">ESP32-Cam</img>
-<img width=100% src="https://mobinets.cn/edgebook/resources/ssd1306.png">SSD-1306</img>
-<img width=100% src="https://mobinets.cn/edgebook/resources/rpi.png">树莓派</img>
-</div>
+<img width=40% src="https://mobinets.cn/edgebook/resources/luojijiagou.png">逻辑架构图</img>
+<img width=40% src="https://mobinets.cn/edgebook/resources/esp32-cam.png">ESP32-Cam</img>
+<img width=40% src="https://mobinets.cn/edgebook/resources/ssd1306.png">SSD-1306</img>
+<img width=40% src="https://mobinets.cn/edgebook/resources/rpi.png">树莓派</img>
 * 物联网前端：发起计算请求、响应计算结果
 * 边缘服务器端：运行服务、处理请求、返回计算结果
 
