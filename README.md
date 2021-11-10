@@ -21,7 +21,7 @@
 <table style="width:100%" align="center">
   <tr>
     <th><img width=80% src="https://mobinets.cn/edgebook/resources/esp32c.png"></img></th>
-    <th><img width=40% src="https://mobinets.cn/edgebook/resources/ssd1306.png"></img></th>
+    <th><img width=50% src="https://mobinets.cn/edgebook/resources/ssd-1306.png"></img></th>
     <th><img width=100% src="https://mobinets.cn/edgebook/resources/rpir.png"></img></th>
   </tr>
   <tr align="center">
