@@ -20,9 +20,9 @@
 
 <table style="width:100%" align="center">
   <tr>
-    <th><img width=20% src="https://mobinets.cn/edgebook/resources/esp32-cam.png"></img></th>
-    <th><img width=20% src="https://mobinets.cn/edgebook/resources/ssd1306.png"></img></th>
-    <th><img width=20% src="https://mobinets.cn/edgebook/resources/rpi.png"></img></th>
+    <th><img width=80% src="https://mobinets.cn/edgebook/resources/esp32-cam.png"></img></th>
+    <th><img width=80% src="https://mobinets.cn/edgebook/resources/ssd1306.png"></img></th>
+    <th><img width=80% src="https://mobinets.cn/edgebook/resources/rpi.png"></img></th>
   </tr>
   <tr>
     <td>ESP32-Cam</td>
