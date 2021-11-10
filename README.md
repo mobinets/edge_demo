@@ -18,11 +18,19 @@
 * 边缘服务器：树莓派3B+或4B（可以使用x86服务器，书中提到的依赖服务请按照相应的系统版本准备）
 * 树莓派系统版本：RPI OS Buster
 
-<div align="center">
-<br><img width=20% src="https://mobinets.cn/edgebook/resources/esp32-cam.png"><br>ESP32-Cam</img>
-<br><img width=20% src="https://mobinets.cn/edgebook/resources/ssd1306.png"><br>SSD-1306</img>
-<br><img width=20% src="https://mobinets.cn/edgebook/resources/rpi.png"><br>树莓派</img>
-</div>
+<table style="width:100%" align="center">
+  <tr>
+    <th><img width=20% src="https://mobinets.cn/edgebook/resources/esp32-cam.png"></img></th>
+    <th><img width=20% src="https://mobinets.cn/edgebook/resources/ssd1306.png"></img></th>
+    <th><img width=20% src="https://mobinets.cn/edgebook/resources/rpi.png"></img></th>
+  </tr>
+  <tr>
+    <td>ESP32-Cam</td>
+    <td>SSD-1306</td>
+    <td>树莓派</td>
+  </tr>
+</table>
+
 
 ## 代码说明
 * Tensorflow提供的目标检测代码请使用<a href="https://github.com/tensorflow/examples/tree/9241dd1f44c503a95e540c85f5084e805bca6028/lite/examples/object_detection/raspberry_pi">9241dd1版本</a>。
