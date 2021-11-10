@@ -20,7 +20,7 @@
 
 <table style="width:100%" align="center">
   <tr>
-    <th><img width=80% src="https://mobinets.cn/edgebook/resources/esp32-cam.png"></img></th>
+    <th><img width=80% src="https://mobinets.cn/edgebook/resources/esp32c.png"></img></th>
     <th><img width=80% src="https://mobinets.cn/edgebook/resources/ssd1306.png"></img></th>
     <th><img width=80% src="https://mobinets.cn/edgebook/resources/rpi.png"></img></th>
   </tr>
