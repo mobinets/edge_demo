@@ -9,21 +9,22 @@
 </div>
 
 ### 利用EdgeX快速搭建标准化边缘服务器
-书中过程基于EdgeX官方文档实现，逐步教程在<a href="">这里</a>。
+书中过程基于EdgeX官方文档实现，原版教程在<a href="https://docs.edgexfoundry.org/1.2/examples/LinuxTutorial/EdgeX-Foundry-tutorial-ver1.0.pdf">这里</a>。
+中文实现过程请参考书中描述。
 
 ## 硬件使用
 * 物联网前端设备：ESP32-Cam
 * 显示屏：SSD1306
 * 边缘服务器：树莓派3B+或4B（可以使用x86服务器，书中提到的依赖服务请按照相应的系统版本准备）
-* 树莓派系统版本：XXX
+* 树莓派系统版本：RPI OS Buster
 
 <div align="center">
-<br><img width=40% src="https://mobinets.cn/edgebook/resources/esp32-cam.png"><br>ESP32-Cam</img>
-<br><img width=40% src="https://mobinets.cn/edgebook/resources/ssd1306.png"><br>SSD-1306</img>
-<br><img width=40% src="https://mobinets.cn/edgebook/resources/rpi.png"><br>树莓派</img>
+<br><img width=20% src="https://mobinets.cn/edgebook/resources/esp32-cam.png"><br>ESP32-Cam</img>
+<br><img width=20% src="https://mobinets.cn/edgebook/resources/ssd1306.png"><br>SSD-1306</img>
+<br><img width=20% src="https://mobinets.cn/edgebook/resources/rpi.png"><br>树莓派</img>
 </div>
 
 ## 代码说明
-* Tensorflow Lite请使用<a href="">XX版本</a>。
-* 系统实现过程中使用的Docker image均指定了版本，请按照书中指定的版本拉取相应docker image。
-* 读者可考虑直接使用书中搭建好的<a href="">服务器端服务镜像</a>。
+* Tensorflow提供的目标检测代码请使用<a href="https://github.com/tensorflow/examples/tree/9241dd1f44c503a95e540c85f5084e805bca6028/lite/examples/object_detection/raspberry_pi">9241dd1版本</a>。
+* Docker镜像基础系统使用Python的Docker Hub官方镜像，版本：python:3.7-slim-buster
+* 读者可考虑直接使用书中搭建好的<a href="https://hub.docker.com/r/csdotliu/detect">服务器端服务镜像</a>（版本使用v2）。
