@@ -18,7 +18,6 @@
 * 树莓派系统版本：XXX
 
 <div align="center">
-<img width=40% src="https://mobinets.cn/edgebook/resources/luojijiagou.png"><br>逻辑架构图</img>
 <br><img width=40% src="https://mobinets.cn/edgebook/resources/esp32-cam.png"><br>ESP32-Cam</img>
 <br><img width=40% src="https://mobinets.cn/edgebook/resources/ssd1306.png"><br>SSD-1306</img>
 <br><img width=40% src="https://mobinets.cn/edgebook/resources/rpi.png"><br>树莓派</img>
