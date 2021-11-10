@@ -6,9 +6,6 @@
 * 边缘服务器端：运行服务、处理请求、返回计算结果
 <div align="center">
 <img width=40% src="https://mobinets.cn/edgebook/resources/luojijiagou.png"><br>逻辑架构图</img>
-<br><img width=40% src="https://mobinets.cn/edgebook/resources/esp32-cam.png"><br>ESP32-Cam</img>
-<br><img width=40% src="https://mobinets.cn/edgebook/resources/ssd1306.png"><br>SSD-1306</img>
-<br><img width=40% src="https://mobinets.cn/edgebook/resources/rpi.png"><br>树莓派</img>
 </div>
 
 ### 利用EdgeX快速搭建标准化边缘服务器
@@ -19,6 +16,13 @@
 * 显示屏：SSD1306
 * 边缘服务器：树莓派3B+或4B（可以使用x86服务器，书中提到的依赖服务请按照相应的系统版本准备）
 * 树莓派系统版本：XXX
+
+<div align="center">
+<img width=40% src="https://mobinets.cn/edgebook/resources/luojijiagou.png"><br>逻辑架构图</img>
+<br><img width=40% src="https://mobinets.cn/edgebook/resources/esp32-cam.png"><br>ESP32-Cam</img>
+<br><img width=40% src="https://mobinets.cn/edgebook/resources/ssd1306.png"><br>SSD-1306</img>
+<br><img width=40% src="https://mobinets.cn/edgebook/resources/rpi.png"><br>树莓派</img>
+</div>
 
 ## 代码说明
 * Tensorflow Lite请使用<a href="">XX版本</a>。
