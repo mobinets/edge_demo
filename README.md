@@ -22,7 +22,7 @@
   <tr>
     <th><img width=80% src="https://mobinets.cn/edgebook/resources/esp32c.png"></img></th>
     <th><img width=80% src="https://mobinets.cn/edgebook/resources/ssd1306.png"></img></th>
-    <th><img width=80% src="https://mobinets.cn/edgebook/resources/rpi.png"></img></th>
+    <th><img width=80% src="https://mobinets.cn/edgebook/resources/rpir.png"></img></th>
   </tr>
   <tr align="center">
     <td>ESP32-Cam</td>
